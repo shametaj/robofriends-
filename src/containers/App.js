@@ -26,7 +26,7 @@ function App () {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response=> response.json())
       .then(users => {setRobots(users)});
-  }, [])
+  }, []) //only run whenever the second parameter [] changes
 
   const onSearchChange = (event) => {
     setSearchfield(event.target.value)
