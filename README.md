@@ -1,5 +1,5 @@
-# robofriends
-Tutorial for udemy course - React
+# robofriends with hooks
+React App using Hooks instead of Classes
 To run the project:
 
 1. Clone this repo
